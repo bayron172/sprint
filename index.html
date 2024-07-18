@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Te lo Vendo</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!--JQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!--DataTable General-->
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+  <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.bootstrap5.css">
+  <!--bootstrap datatable-->
+  <script src="https://cdn.datatables.net/2.0.8/js/dataTables.bootstrap5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+  <header class="header-container">
+    <!-- Cabecera -->
+    <h1 class="text-center">Te lo Vendo</h1>
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+      <ul class="nav">
+        <li class="nav-item">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Catálogo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html" target="_blank">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="estadisticas.html" target="_blank">Estadisticas</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Principal -->
+    <div class="container p-5 my-5 bg-dark text-white">
+      <section id="nosotros">
+        <p class="text-center">Te lo vendo surgió en 2013 para abordar la creciente demanda de una plataforma segura y eficiente para la compra y venta de productos de segunda mano. Colaboramos estrechamente con más de 200 emprendedores, quienes nos proveen sus mercancías para que nosotros las publiquemos y enviemos a clientes en todo Chile.
+
+          Nos esforzamos por fomentar el emprendimiento mientras minimizamos nuestro impacto ambiental, educando a la sociedad sobre la importancia de la economía circular.
+        </p>
+    </div>
+
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="container">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://www.shutterstock.com/shutterstock/photos/2206664229/display_1500/stock-photo-portrait-of-asian-young-woman-sme-working-with-a-box-at-home-the-workplace-start-up-small-business-2206664229.jpg"
+              class="d-block w-100" alt="Imagen Joven Pyme">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images-ext-1.discordapp.net/external/tVDY9-HKXYuDxHr2HYhtErNZv7GZDLyVyhCF9T_HoJE/https/cloudfront-us-east-1.images.arcpublishing.com/copesa/7FFVS6CFZNBA7PZCTJILH7MJSA.jpeg?format=webp&width=528&height=515"
+              class="d-block w-100" alt="Imagen meme no debi comer galletas">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.europarl.europa.eu/resources/library/images/20230927PHT05953/20230927PHT05953_original.png"
+              class="d-block w-100" alt="Imagen Economia circular">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.elfinanciero.com.mx/resizer/vx2-PrdOKxRN3dQKqVRIeQG9dK4=/400x267/filters:format(png):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/42JGIRAGT5HCLGNSLODJOC436M.png"
+              class="d-block w-100" alt="Imagen Mr Burns">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container-fluid text-center mt-5">
+    <p id="piepagina">&copy; GRUPO 1 - 2024 </p>
+    <p>César González | Kevin Henríquez | Hernán Medina bravo | Camila Palma | Bayron Sepulveda | Santiago Urzua</p>
+  </footer>
+
+
+  <!--Javascript Functionc-->
+  <script src="assets/js/function.js"></script>
+
+  <!--Scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

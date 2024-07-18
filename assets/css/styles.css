@@ -1,0 +1,32 @@
+#galeria .col-lg-6 {
+    padding: 20px;
+    width: 95%;
+}
+
+#galeria img {
+    width: 150px;
+    margin: auto;
+}
+
+#mensaje {
+    resize: none;
+}
+
+.errores{
+    color: darkred;
+}
+
+header{
+    padding: 5px;
+    color: rgb(137, 197, 206);
+}
+
+thead{
+    color: aliceblue;
+    font-family: Gill Sans, sans-serif;
+    font-size: 13px;
+}
+
+tbody{
+    font-family: Gill Sans, Gill Sans MT, sans-serif;
+}
